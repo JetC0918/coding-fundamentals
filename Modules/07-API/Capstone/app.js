@@ -21,7 +21,7 @@ async function getCat(){
                                     <p id="cat__text">${cat.description}</p>
                                 </div>
                                 <div class="cat__cta gray">
-                                    <a id="cat__link" href="${cat.wikipedia_url}">Profile</a>
+                                <a id="cat__link" href="${cat.wikipedia_url}">Profile</a>
                                 </div>
                             </div>
                             `
