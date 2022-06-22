@@ -34,7 +34,7 @@ function authorize(){
 
 function extractTokenFromURI() {
     var hash = window.location.hash;
-    if (hash && hash.includes("access_token")){
+     if (hash && hash.includes("access_token")){
         var url = hash.replace("#access_token=", "");
         var chunks = url.split("&");
         var token = chunks[0];
