@@ -2,10 +2,10 @@
 
 /* Configs */
 :root{
-    --game-speed: 5000; /* In ms */
-    --jump-speed: 600; /* In ms */
-    --max-jump: 250; /* In ms */
-    --speed-scale: 1; /* In percentage */
+    --game-speed: 0; /* In ms */
+    --jump-speed: 0; /* In ms */
+    --max-jump: 0; /* In ms */
+    --speed-scale: 0; /* In percentage */
 }
 
 *{
@@ -25,9 +25,7 @@ html{
 
 /* Game container */
 #game{
-    position: relative;
-    width: 1051px;
-    height: 384px;
+    position: relative; 
     border: 1px solid black;
     overflow: hidden;
 }
