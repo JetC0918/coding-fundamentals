@@ -100,9 +100,10 @@ var scoreInterval = 10;
 var currentScoreInterval = 0;
 function updateScore() {
     currentScoreInterval +=1;
-    if (currentScoreInterval % scoreInterval === 0){
-        Score += 1;
-    } 
+    if (currentScoreInterval % scoreInterval !== 0){
+       return
+    }  
+    Score += 1;
     if (Score === 0) return;
     if (Score % 100 === 0){
         var audio = document.querySelector(".point-audio")
